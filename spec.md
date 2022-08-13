@@ -32,7 +32,8 @@ correlation between ELF binaries and their SBOM.
 ## The ELF `.reference` note
 
 The `.reference` note is an `SHT_NOTE` typed section, with
-the assigned section name `.reference`, with two sections.
+the assigned section name `.reference` featuring an optional
+name and required descriptor.
 
 `SHT_NOTE` sections are described on page 2-4 of the [ELF
 specification][elf], and the `.reference` note follows
