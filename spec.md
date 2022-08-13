@@ -26,6 +26,9 @@ to have an embedded copy of, or pointer to, any resource
 including an SBOM document, allowing for universal
 correlation between ELF binaries and their SBOM.
 
+> *TODO*: Improve the above paragraph to explain more about
+> why people want this.
+
 ## The ELF `.reference` note
 
 The `.reference` note is an `SHT_NOTE` typed section, with
@@ -73,10 +76,8 @@ object per the [ELF specification][elf], page 1-15:
 
 ## Well-known types of `.reference` sections
 
-*This section is non-normative.*
-
-This spec proposes a minimum set of well-known types to use
-as typed URIs in `.reference` sections:
+A minimum set of well-known types are proposed for use as
+typed URIs in `.reference` sections:
 
 - Media Type: `text/spdx`
 
