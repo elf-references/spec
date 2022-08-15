@@ -39,6 +39,12 @@ name and required descriptor.
 specification][elf], and the `.reference` note follows
 this description.
 
+### The `.reference` type section
+
+The `type` field is used to describe the version of the
+`.reference` note.  At present, the `type` field *must*
+be set to `1` in host-endian order.
+
 ### The `.reference` name section
 
 The `namesz` and `name` fields are used to describe the
