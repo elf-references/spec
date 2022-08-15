@@ -133,6 +133,23 @@ inside a `.reference` section:
 }
 ```
 
+### Referencing a local document
+
+*This section is non-normative.*
+
+This example embeds `file:///var/db/sbom/example.spdx` as a
+`.reference` section:
+
+```
+{
+  namesz: 12,
+  descsz: 32,
+  type: 1,
+  name: "text/spdx\0\0\0",
+  desc: "file:///var/db/sbom/example.spdx"
+}
+```
+
 ### Referencing an SPDX SBOM document
 
 *This section is non-normative.*
