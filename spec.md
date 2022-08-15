@@ -184,6 +184,21 @@ as a `.reference` section:
 }
 ```
 
+## Security considerations
+
+*This section is non-normative.*
+
+### Authentication of remote references
+
+Remote references may be altered or deleted by the party
+which controls the domain the referenced resource is hosted
+on.
+
+Referenced resources *should* be authenticated by any
+client fetching them using normal authentication methods
+such as hash commitments, content-addressable storage,
+or signatures, before they are considered trustworthy.
+
 ## References
 
 * [Software Bill of Materials][sbom] specification as written
