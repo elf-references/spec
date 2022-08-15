@@ -184,18 +184,6 @@ as a `.reference` section:
 }
 ```
 
-## Acknowledgements
-
-*This section is non-normative.*
-
-The author of this specification wishes to express her
-gratitude to [Laurent Bercot][skarnet] for reviewing the
-initial concept.  While that concept did not emerge unscathed
-from his review, the specification that resulted is both more
-composable and generic as a result.
-
-   [skarnet]: https://www.skarnet.org/
-
 ## References
 
 * [Software Bill of Materials][sbom] specification as written
