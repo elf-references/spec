@@ -7,4 +7,7 @@ change.
 
 The spec itself may be viewed at [spec.md](spec.md).
 
+A reference implementation is available named [reftool][reftool].
+
    [ld]: https://en.wikipedia.org/wiki/Linked_data
+   [reftool]: https://github.com/elf-references/reftool
